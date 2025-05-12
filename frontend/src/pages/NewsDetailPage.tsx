@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import type {News} from '../types'
-import { getNewsById } from '../services/newsService'
+import { getNewsById } from '../lib/newsService'
 
 const NewsDetailPage = () => {
     const { id } = useParams()

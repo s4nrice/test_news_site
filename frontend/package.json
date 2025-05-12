@@ -1,26 +1,16 @@
 {
-  "name": "test-site",
+  "name": "test-site-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "seed": "tsx src/scripts/seed.ts",
-    "server": "tsx src/server/index.ts"
+    "dev": "../node_modules/.bin/vite",
+    "build": "../node_modules/.bin/tsc -b && vite build",
+    "lint": "../node_modules/.bin/eslint .",
+    "preview": "../node_modules/.bin/vite preview"
   },
   "dependencies": {
-    "@prisma/client": "^6.7.0",
-    "@types/cors": "^2.8.18",
-    "@types/express": "^5.0.1",
     "@types/react-router-dom": "^5.3.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "pg": "^8.15.6",
-    "prisma": "^6.7.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0"
@@ -35,9 +25,6 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
-    "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
-    "tsx": "^4.19.4",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"

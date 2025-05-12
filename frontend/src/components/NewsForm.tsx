@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type {News} from '../types'
-import { createNews } from '../services/newsService'
+import { createNews } from '../lib/newsService'
 
 interface NewsFormProps {
     onNewsAdded: (news: News) => void

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import NewsForm from '../components/NewsForm'
 import NewsList from '../components/NewsList'
 import type {News} from '../types'
-import { getNews } from '../services/newsService'
+import { getNews } from '../lib/newsService'
 
 const NewsListPage = () => {
     const [news, setNews] = useState<News[]>([])
